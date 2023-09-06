@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    width: 100%;
+    margin: 10px auto;
+    padding-top: 10px;
+    background-color: rgb(234, 166, 234);
+    font-family: "Sofia",'Courier New', Courier, monospace;
+}
+
+#main-header, #main-nav, #sidebar, #content, #footer{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#main-header{
+    border: 4px dotted orange;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#main-nav{
+    border: 4px dotted orangered;
+    height: 90px;
+}
+
+#main-nav a.active{
+    color: rgb(242, 86, 174);
+}
+
+#main-nav > ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+#main-nav li{
+    text-align: center;
+    width: 25%;
+    display: inline;
+}
+
+#main-nav a{
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#main-nav a:hover{
+    color: rgb(242, 86, 174);
+    border: 4px dotted rgb(242, 86, 174);
+    border-radius: 18px;
+}
+
+#dropdown-btn{
+    position: relative;
+    display: inline;
+}
+
+#dropdown-content{
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(234, 166, 234);
+    z-index: 1;
+    border-radius: 20px;
+}
+
+#dropdown-btn:hover #dropdown-content{
+    display: block;
+}
+
+#content-wrapper{
+    display: flex;
+}
+
+#sidebar{
+    border: 4px dotted green;
+    width: 20%;
+    position: relative;
+    text-align: center;
+    height: 50%;
+}
+
+#sidebar img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+#content{
+    border: 4px dotted yellow;
+    width: 80%;
+    padding: 20px;
+}
+
+#content a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    padding: 0px 20px;
+}
+
+#content a:hover{
+    color: rgb(242, 86, 174);
+}
+
+.content-text{
+    padding-left: 20px;
+}
+
+.headers{
+    text-align: center;
+}
+
+#section-wrapper{
+    display: flex;
+}
+
+#section-wrapper section{
+    padding: 10px;
+}
+
+#img-container {
+    display: flex;
+    margin: 10px;
+}
+
+#img-container img{
+    width: 33%;
+}
+
+.bilder:first-child{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.bilder:last-child{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+#footer{
+    border: 4px dotted blue;
+    display: flex;
+    justify-content: center;
+}
+
+#footer a{
+    text-decoration: none;
+    color: black;
+}

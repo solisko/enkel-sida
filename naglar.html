@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>enkel-sida</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=shadow-multiple">
+</head>
+<body>
+    
+    <header id="main-header">
+        <h1 class="font-effect-shadow-multiple"> Sofia's FÄRGGLADA testsida</h1>
+    </header>
+
+    <nav id="main-nav">
+        <ul>
+            <li><a href="index.html">Sofia</a></li>
+            <li><a href="om.html">Om</a></li>
+            <li id="dropdown-btn">
+                <a href="projekt.html" class="active">Projekt</a>
+                    <ul id="dropdown-content">
+                        <li><a href="projekt.html">Virkning</a></li>
+                        <li><a href="naglar.html">Naglar</a></li>
+                    </ul>
+            </li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+    
+    <div id="content-wrapper">
+        <aside id="sidebar">
+            <a href="kontakt.html">
+                <img src="pic/jag2.jpg" alt="Bild på Sofia">
+            </a>
+            <p>Bild på Sofia.</p>
+        </aside>
+        <main id="content">
+            <h2 class="headers">Välkommen till projekt sidan</h2>
+            <p class="content-text">Här är det bilder på olika virkprojekt:</p>
+            <div id="img-container">
+                <img class="bilder" src="pic/naglar2.jpg" alt="">
+                <img class="bilder" src="pic/naglar1.jpg" alt="">
+                <img class="bilder" src="pic/naglar3.jpg" alt="">
+            </div>
+        </main>
+    </div>
+    
+    <section id="footer">
+        &middot; EST. SINCE 1992 &middot; <a href="">Trustpilot ★★★★★</a> &middot; Copyright &#169; 2023 &middot;
+    </section>
+    
+</body>
+</html>
