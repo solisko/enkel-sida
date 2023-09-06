@@ -27,7 +27,8 @@ body{
     height: 90px;
 }
 
-#main-nav a.active{
+#main-nav a.active,
+#content a:hover{
     color: rgb(242, 86, 174);
 }
 
@@ -78,7 +79,8 @@ body{
     display: block;
 }
 
-#content-wrapper{
+#content-wrapper,
+#section-wrapper{
     display: flex;
 }
 
@@ -110,20 +112,12 @@ body{
     padding: 0px 20px;
 }
 
-#content a:hover{
-    color: rgb(242, 86, 174);
-}
-
 .content-text{
     padding-left: 20px;
 }
 
 .headers{
     text-align: center;
-}
-
-#section-wrapper{
-    display: flex;
 }
 
 #section-wrapper section{
