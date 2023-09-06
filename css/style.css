@@ -154,3 +154,24 @@ body{
     text-decoration: none;
     color: black;
 }
+
+#form-container{
+    width: 700px;
+    border: 4px dotted black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="submit"]{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #333;
+}
+
+textarea{
+    margin-top: 10px;
+}
