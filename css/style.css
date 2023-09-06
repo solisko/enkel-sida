@@ -107,11 +107,17 @@ body{
     padding: 20px;
 }
 
+#link-container{
+    width: 25%;
+    text-align: center;
+}
+
 #link-container a{
     text-decoration: none;
     font-size: 30px;
     color: black;
-    padding: 0px 20px;
+    padding: 20px 20px;
+    display: block;
 }
 
 .content-text{
