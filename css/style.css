@@ -187,4 +187,5 @@ input[type="submit"]{
 
 textarea{
     margin-top: 10px;
+    border: 4px dotted rgb(239, 237, 233);
 }
