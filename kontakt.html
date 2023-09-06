@@ -37,9 +37,27 @@
         </aside>
         <main id="content">
             <h2 class="headers">Välkommen till kontakt sidan</h2>
-            <a href="https://www.instagram.com/skommar/" target="_blank">Insta</a>
-            <a href="https://www.linkedin.com/in/sofia-lindman-skommar-3846b328a/" target="_blank">LinkedIn</a>
-            <a href="">epost</a>
+            <div id="contact-wrapper">
+                <div id="link-container">
+                    <a href="https://www.instagram.com/skommar/" target="_blank">Insta</a>
+                    <a href="https://www.linkedin.com/in/sofia-lindman-skommar-3846b328a/" target="_blank">LinkedIn</a>
+                    <a href="" target="">Epost</a>
+                </div>
+                <div id="form-container">
+                    <form action="">
+                        <div id="name-container">
+                            <label for="firstname">Förnamn:</label>
+                            <input type="text" id="firstname" name="firstname">
+                            <label for="lastname">Efternamn:</label>
+                            <input type="text" id="lastname" name="lastname"> <br>
+                            <label for="email">Epost:</label>
+                            <input type="email" id="email" name="email" required> <br>
+                        </div>
+                        <textarea name="comment" id="comment" cols="30" rows="10" required placeholder="Skriv din kommentar här..."></textarea>
+                        <input type="submit" value="Kommentera">
+                    </form>
+                </div>
+            </div>
         </main>
     </div>
     

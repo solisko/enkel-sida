@@ -80,7 +80,9 @@ body{
 }
 
 #content-wrapper,
-#section-wrapper{
+#section-wrapper,
+#name-container,
+#contact-wrapper{
     display: flex;
 }
 
@@ -105,11 +107,17 @@ body{
     padding: 20px;
 }
 
-#content a{
+#link-container{
+    width: 25%;
+    text-align: center;
+}
+
+#link-container a{
     text-decoration: none;
     font-size: 30px;
     color: black;
-    padding: 0px 20px;
+    padding: 20px 20px;
+    display: block;
 }
 
 .content-text{
@@ -153,4 +161,30 @@ body{
 #footer a{
     text-decoration: none;
     color: black;
+}
+
+#form-container{
+    width: 100%;
+    border: 4px dotted black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+
+label{
+    padding: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+input[type="submit"]{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #333;
+    background-color: rgb(234, 166, 234);
+}
+
+textarea{
+    margin-top: 10px;
 }
